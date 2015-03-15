@@ -935,7 +935,7 @@ a.btn:focus{
 @media(min-width:767px) {
 
     .navbar {
-        padding: 20px 0;
+        /*padding: 20px 0;*/
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
