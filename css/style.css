@@ -2,11 +2,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
 @import url('http://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
 
-/* custom styles */
-.advisor {
-	margin-bottom: 50px;
-}
-
 body {
     width: 100%;
     height: 100%;
@@ -323,7 +318,7 @@ hr.bold {
 ============================ */
 
 .home-section {
-    padding-top: 150px;
+    padding-top: 120px;
     padding-bottom: 110px;
 	display:block;
     position:relative;
@@ -935,7 +930,7 @@ a.btn:focus{
 @media(min-width:767px) {
 
     .navbar {
-        /*padding: 20px 0;*/
+        padding: 10px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;

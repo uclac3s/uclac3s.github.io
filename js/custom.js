@@ -1,7 +1,5 @@
 /*global jQuery:false */
 (function ($) {
-
-
 	$(window).load(function(){
       $("#navigation").sticky({ topSpacing: 0 });
     });
@@ -73,7 +71,7 @@
 	
 	//nivo lightbox
 	$('.owl-carousel .item a').nivoLightbox({
-		effect: 'fadeScale',                             // The effect to use when showing the lightbox
+		effect: 'fadeScale',                        // The effect to use when showing the lightbox
 		theme: 'default',                           // The lightbox theme to use
 		keyboardNav: true,                          // Enable/Disable keyboard navigation (left/right/escape)
 		clickOverlayToClose: true,                  // If false clicking the "close" button will be the only way to close the lightbox
@@ -94,5 +92,4 @@
 			jQuery('.nav li').removeClass('active');
 			jQuery(".nav a[href='#" + id + "']").parent().addClass("active");					
 		});
-	
 })(jQuery);

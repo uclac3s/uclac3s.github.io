@@ -1,0 +1,35 @@
+
+/* custom styles */
+.advisor {
+	margin-bottom: 50px;
+}
+
+.navbar {
+	/*padding: 10px 0;*/
+}
+
+.navbar-custom ul.nav li a {
+	font-size: 12px;
+}
+
+.navbar-collapse {
+	/*padding-top: 20px;*/
+}
+
+.container {
+	width: 960px;
+}
+
+#navigation {
+	width: 960px;
+}
+
+.page {
+	width: 960px;
+	padding: 0;
+}
+
+.member {
+	text-align: left;
+	margin-bottom: 30px;
+}
