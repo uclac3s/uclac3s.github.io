@@ -14,10 +14,10 @@ a,.tp-caption a.btn:hover {
     background-color: #E3E142;
 }
 
+/*
 .header-text h2 span {
     background-color: #E3E142;
-}
-
+}*/
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
 	color: #E3E142;
@@ -39,10 +39,6 @@ a,.tp-caption a.btn:hover {
 .highlight-color {
 	background-color: #E3E142;
 }
-
-
-
-
 
 form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
 	border-color: #E3E142;
