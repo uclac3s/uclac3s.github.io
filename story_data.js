@@ -1,4 +1,4 @@
-var calendar_data =
+var story_data =
 [
 	{
 		"title": "Can we Design \n Our Career",

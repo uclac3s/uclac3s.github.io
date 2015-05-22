@@ -26,6 +26,7 @@
 	<script src='js/moment.min.js'></script>
 	<script src='fullcalendar/fullcalendar.js'></script>
 	<script src='calendar_data.js'></script>
+	<script src='story_data.js'></script>
 
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -39,7 +40,7 @@
 	
 	<script type="text/javascript">
 		$(document).ready(function() {
-			// alert(c_data);
+			// alert(calendar_data);
 		    // page is now ready, initialize the calendar...
 		    $('#calendar').fullCalendar({
 		    	header: {
@@ -50,7 +51,7 @@
 				// defaultDate: '2014-06-12',
 				// defaultView: 'basicWeek',
 				// editable: true,
-				events: c_data
+				events: calendar_data
 		    })
 		});
 	</script>
@@ -77,8 +78,9 @@
 									<li><a href="#events">Events</a></li>
 									<li><a href="#schedule">Schedule</a></li>
 									<!--li><a href="https://www.eventbrite.com/e/ucla-c3s-grand-opening-seminar-tickets-16372242819">RSVP!</a></li-->
-									<li><a href="#advisors">Advisors</a></li>
 									<li><a href="#photos">Gallery</a></li>
+									<li><a href="#story">Story</a></li>
+									<li><a href="#advisors">Advisors</a></li>
 									<li><a href="#members">Orgnizers</a></li>
 									<!--li><a href="#contact">Contact</a></li-->
 									<li><a href="#service">Join Us</a></li>
@@ -219,7 +221,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="container marginbot-70">
+			<div class="container marginbot-30">
 				<div class="row text-center">
 					<!--div class="col-md-2">
 						<p><strong>Upcoming events</strong></p>
@@ -238,11 +240,21 @@
 				<div class="row text-center">
 					<p></p>
 					<p><strong>Past events</strong></p>
-					<div class="col-md-12">
-						<a href="events/4_21.jpg">How to Present Your Research? (Speaker: Feng Guo, Dezhi Kang)</a>
+					<div>
+						<div class="col-md-9"><a href="events/4_21.jpg">How to Present Your Research? (Speaker: Feng Guo, Dezhi Kang)</a></div>
+						<div class="col-md-2">
+							<a href="http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=205093160&idx=2&sn=85db27c6b76925b679b0dd82c0eea537#rd">
+								(Notes for 4.21)
+							</a>
+						</div>
 					</div>
-					<div class="col-md-12">
-						<a href="events/4_10.jpg">Can we Design Our Career? (Speaker: Jason Cong)</a>
+					<div>
+						<div class="col-md-9"><a href="events/4_10.jpg">Can we Design Our Career? (Speaker: Jason Cong)</a></div>
+						<div class="col-md-2">
+							<a href="http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=204799904&idx=2&sn=f6861f52fe0fd743c2a64bf8b8d326ec#rd">
+								(Notes for 4.10)
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -266,6 +278,78 @@
 			<div id='calendar'></div>
 		</section>
 		<!-- Section: schedule -->
+
+		<!-- Section: gallery -->
+		<section id="photos" class="home-section color-dark text-center bg-white">
+			<div class="container marginbot-50">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+							<div class="section-heading text-center">
+								<h2 class="h-bold">Gallery</h2>
+								<div class="divider-header"></div>
+								<p>Photos from past events</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-12" >
+						<div class="wow bounceInUp" data-wow-delay="0.4s">
+							<div id="owl-works" class="owl-carousel">
+								<div class="item photo-anchor">
+									<a href="img/works/sample.jpg" title="" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/sample@2x.jpg">
+										<img src="img/works/sample.jpg" class="img-responsive " alt="img">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script src="gallery/insert.js"></script>
+		</section>
+		<!-- /Section: gallery -->
+
+		<!-- Section: story -->
+		<section id="story" class="home-section color-dark text-center bg-white">
+			<div class="container marginbot-30">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+							<div class="section-heading text-center">
+								<h2 class="h-bold">Story</h2>
+								<div class="divider-header"></div>
+								<p><strong>UCLA alumni to share their stories over the years studying at UCLA.</strong></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12 marginbot-20">
+						<a href="http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=204449108&idx=2&sn=cbf2627c6b2af329cc1b20bd68472d81#rd">回归之路（一）</a>
+						<a href="http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=204449108&idx=3&sn=50a9eb8ed68189e5e9b63726b437e052#rd">回归之路（二）</a>
+					</div>
+					<div class="col-md-12 marginbot-20">
+						<a href="http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=205183676&idx=2&sn=8f5b055595bb70e1f6f6dc22f1a541c6#rd">流浪者之歌（一）</a>
+						<a href="http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=205210738&idx=2&sn=b516765f8c1f0b011911ba1530fe0a1a#rd">流浪者之歌（二）</a>
+					</div>
+					<div class="col-md-12 marginbot-20">
+						<a href="http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=205601699&idx=2&sn=97a1c8d0f48eb43ed01642e374b8ccac#rd">“留学故事系列”之三</a>
+					</div>
+					<!--div class="col-md-12 marginbot-20">
+						<a href=""></a>
+						<a href=""></a>
+					</div-->
+				</div>
+			</div>
+			<script src="gallery/insert.js"></script>
+		</section>
+		<!-- /Section: story -->
 
 		<!-- Section: advisors -->
 		<section id="advisors" class="home-section color-dark bg-white">
@@ -358,7 +442,7 @@
 						<p><strong>Ben Rich-Lockheed Martin Chair Professor</strong></p>
 						<div>Henry Samueli School of Engineering</div>
 						<div>Department of Mechanical & Aerospace Engineering</div>
-						<div>Department of Bioengineering</div> 
+						<div>Department of Bioengineering</div>
 					</div>
 					<div class="col-md-4">
 						<p><strong>Research interest</strong></p>
@@ -447,40 +531,6 @@
 			</div>
 		</section>
 		<!-- /Section: advisors -->
-
-		<!-- Section: works -->
-		<section id="photos" class="home-section color-dark text-center bg-white">
-			<div class="container marginbot-50">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2">
-						<div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
-							<div class="section-heading text-center">
-								<h2 class="h-bold">Gallery</h2>
-								<div class="divider-header"></div>
-								<p>Photos from past events</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12 col-md-12 col-lg-12" >
-						<div class="wow bounceInUp" data-wow-delay="0.4s">
-							<div id="owl-works" class="owl-carousel">
-								<div class="item photo-anchor">
-									<a href="img/works/sample.jpg" title="" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/sample@2x.jpg">
-										<img src="img/works/sample.jpg" class="img-responsive " alt="img">
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<script src="gallery/insert.js"></script>
-		</section>
-		<!-- /Section: works -->
 
 		<!-- Section: members -->
 		<section id="members" class="home-section color-dark text-center bg-white">
