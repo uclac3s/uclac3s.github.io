@@ -2,15 +2,18 @@ var calendar_data =
 [
 	{
 		"title": "Can we Design \n Our Career",
-		"start": "2015-04-10"
+		"start": "2015-04-10T17:00:00",
+		"end": "2015-04-10T18:00:00"
 	},
 	{
 		"title": "How to Present \n Your Research",
-		"start": "2015-04-21"
+		"start": "2015-04-21T17:00:00",
+		"end": "2015-04-21T18:00:00"
 	},
 	{
 		"title": "How to Build a Successful \n Career in US",
-		"start": "2015-05-14"
+		"start": "2015-05-14T17:00:00",
+		"end": "2015-05-14T18:00:00"
 	}
 /*
   {
