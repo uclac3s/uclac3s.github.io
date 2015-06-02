@@ -33,3 +33,15 @@
 	text-align: left;
 	margin-bottom: 30px;
 }
+
+.titleLink {
+    color: #CACABC;
+}
+
+.noteLink {
+    color: #c83539;
+}
+
+.storyLink {
+    color: #000066;
+}
