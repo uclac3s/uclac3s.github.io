@@ -3,7 +3,8 @@
 folder=$(pwd)
 #p=$folder/img/event1
 #p=$folder/members
-p=$folder/advisors
+#p=$folder/advisors
+p=tmp
 cd $p
 
 for img in *.jpg; do
