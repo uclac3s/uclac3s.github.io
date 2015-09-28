@@ -1,36 +1,49 @@
 
 /* custom styles */
-.advisor {
-	margin-bottom: 50px;
+
+/* fit for mobile devices */
+@media (max-width: 768px) {
+    #navigation {
+        padding: 40px 0 0 0;
+    }
+
+    .navbar-custom ul.nav li a {
+       color: #444;
+    }
 }
 
 .navbar {
-	/*padding: 10px 0;*/
+    /*padding: 10px 0;*/
+    min-height: 10px;
 }
 
+/* nav bar */
 .navbar-custom ul.nav li a {
-	font-size: 12px;
+    font-size: 12px;
 }
 
 .navbar-collapse {
-	/*padding-top: 20px;*/
-}
-
-.container {
-	/*width: 960px;*/
-    width: 100%;
+    /*padding-top: 20px;*/
 }
 
 #navigation {
-	/*width: 960px;*/
+    /*width: 960px;*/
+    /*width: 60%;*/
     position: fixed;
-    width: 60%;
 }
 
+/* pages */
 .page {
-	/*width: 960px;*/
-    width: 60%;
-	padding: 0;
+    /*width: 960px;*/
+    /*width: 60%;*/
+    padding: 0;
+}
+
+.container {
+}
+
+.advisor {
+	margin-bottom: 50px;
 }
 
 .member {
