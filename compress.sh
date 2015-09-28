@@ -4,7 +4,7 @@ folder=$(pwd)
 #p=$folder/img/event1
 #p=$folder/members
 #p=$folder/advisors
-p=tmp
+p=gallery
 cd $p
 
 for img in *.jpg; do
@@ -16,7 +16,7 @@ for img in *.jpg; do
 	then
 		echo "new added: $img"
 		#convert -quality 75 "$img" $folder/compressed/"$img"
-    		convert -quality 75 -resize 50% "$img" $folder/compressed/"$img"
+    		convert -quality 50 -resize 50% "$img" $folder/compressed/"$img"
 	fi
     fi
 done
