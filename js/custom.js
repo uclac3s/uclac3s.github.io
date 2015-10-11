@@ -92,4 +92,11 @@
 			jQuery('.nav li').removeClass('active');
 			jQuery(".nav a[href='#" + id + "']").parent().addClass("active");					
 		});
+
+	// seminars
+	for (var key in sems) {
+		if (sems.hasOwnProperty(key)) {
+			$('#' + key).attr('href', sems[key]);
+		}
+	}
 })(jQuery);

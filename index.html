@@ -78,12 +78,12 @@
                                 <li class="active"><a href="#intro">Home</a></li>
                                 <li><a href="#about">About Us</a></li>
                                 <li><a href="#events">Events</a></li>
-                                <li><a href="#schedule">Schedule</a></li>
-                                <li><a href="#photos">Gallery</a></li>
+                                <li><a href="#seminars">Seminars</a></li>
                                 <li><a href="#story">Story</a></li>
                                 <li><a href="#westwood">Westwood Cafe</a></li>
                                 <li><a href="#advisors">Advisors</a></li>
                                 <li><a href="#members">Orgnizers</a></li>
+                                <li><a href="#photos">Gallery</a></li>
                                 <li><a href="#career">Careers</a></li>
                             </ul>
                         </div>
@@ -277,7 +277,7 @@
         <!-- /Section: events -->
 
         <!-- Section: schedule -->
-        <section id="schedule" class="home-section color-dark text-center bg-white">
+        <!--section id="schedule" class="home-section color-dark text-center bg-white">
             <div class="container marginbot-50">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
@@ -291,42 +291,49 @@
                 </div>
             </div>
             <div id='calendar'></div>
-        </section>
+        </section-->
         <!-- /Section: schedule -->
 
-        <!-- Section: gallery -->
-        <section id="photos" class="home-section color-dark text-center bg-white">
-            <div class="container marginbot-50">
+        <!-- Section: seminars -->
+        <section id="seminars" class="home-section color-dark text-center bg-white">
+            <div class="container marginbot-30">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
                             <div class="section-heading text-center">
-                                <h2 class="h-bold">Gallery</h2>
+                                <h2 class="h-bold">Seminars</h2>
                                 <div class="divider-header"></div>
-                                <p>Photos from past events</p>
+                                <p><strong>Check out next week's seminars in UCLA here!</strong></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12" >
-                        <div class="wow bounceInUp" data-wow-delay="0.4s">
-                            <div id="owl-works" class="owl-carousel">
-                                <div class="item photo-anchor">
-                                    <a href="img/works/sample.jpg" title="" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/sample@2x.jpg">
-                                        <img src="img/works/sample.jpg" class="img-responsive " alt="img">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                <div class="row text-center">
+                    <div class="col-md-4 marginbot-20">
+                        <a id="career_dev" href="" style="color:#8a6d3b">Career Development</a>
+                    </div>
+                    <div class="col-md-4 marginbot-20">
+                        <a id="bio" href="" style="color:#8a6d3b">Biomedicine</a>
+                    </div>
+                    <div class="col-md-4 marginbot-20">
+                        <a id="eng" href="" style="color:#8a6d3b">Engineering/Materials Science</a>
+                    </div>
+                    <div class="col-md-4 marginbot-20">
+                        <a id="eco" href="" style="color:#8a6d3b">Economics/Business/Law</a>
+                    </div>
+                    <div class="col-md-4 marginbot-20">
+                        <a id="chem" href="" style="color:#8a6d3b">Chemistry/Physics</a>
+                    </div>
+                    <div class="col-md-4 marginbot-20">
+                        <a id="math_cs" href="" style="color:#8a6d3b">Math/Computer Science</a>
                     </div>
                 </div>
             </div>
             <script src="gallery/insert.js"></script>
         </section>
-        <!-- /Section: gallery -->
+        <!-- /Section: seminars -->
 
         <!-- Section: story -->
         <section id="story" class="home-section color-dark text-center bg-white">
@@ -837,6 +844,40 @@
         </section>
         <!-- /Section: members -->
 
+        <!-- Section: gallery -->
+        <section id="photos" class="home-section color-dark text-center bg-white">
+            <div class="container marginbot-50">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+                            <div class="section-heading text-center">
+                                <h2 class="h-bold">Gallery</h2>
+                                <div class="divider-header"></div>
+                                <p>Photos from past events</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12" >
+                        <div class="wow bounceInUp" data-wow-delay="0.4s">
+                            <div id="owl-works" class="owl-carousel">
+                                <div class="item photo-anchor">
+                                    <a href="img/works/sample.jpg" title="" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/sample@2x.jpg">
+                                        <img src="img/works/sample.jpg" class="img-responsive " alt="img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="gallery/insert.js"></script>
+        </section>
+        <!-- /Section: gallery -->
+
         <!-- /Section: career -->
         <section id="career" class="home-section color-dark bg-gray">
             <div class="container marginbot-50">
@@ -1035,6 +1076,7 @@
         <script src="js/wow.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/nivo-lightbox.min.js"></script>
+        <script src="seminars.js"></script>
         <script src="js/custom.js"></script>
     </div>
 
