@@ -94,9 +94,15 @@
 		});
 
 	// seminars
-	for (var key in sems) {
-		if (sems.hasOwnProperty(key)) {
-			$('#' + key).attr('href', sems[key]);
+	$.ajax({
+        url: "http://uclac3s-seminars.appspot.com/getseminarlinks"
+    }).then(function(seminar_links) {
+    	for (var key in seminar_links) {
+			if (seminar_links.hasOwnProperty(key)) {
+				$('#' + key).attr('href', seminar_links[key]);
+			}
+			console.log(key + " link processed!");
 		}
-	}
+    });
+
 })(jQuery);
