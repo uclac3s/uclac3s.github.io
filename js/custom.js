@@ -93,16 +93,21 @@
 			jQuery(".nav a[href='#" + id + "']").parent().addClass("active");					
 		});
 
-	// seminars
-	$.ajax({
-        url: "http://uclac3s-seminars.appspot.com/getseminarlinks"
-    }).then(function(seminar_links) {
-    	for (var key in seminar_links) {
-			if (seminar_links.hasOwnProperty(key)) {
-				$('#' + key).attr('href', seminar_links[key]);
-			}
-			console.log(key + " link processed!");
+	// seminars links -- we only load links while users mouse over link titles
+	$('.seminar_link').mouseover(function () {
+		// links not set
+		if ($(this).attr('href') == '') {
+			$.ajax({
+	        	url: "http://uclac3s-seminars.appspot.com/getseminarlinks"
+	    	}).then(function(seminar_links) {
+		    	for (var key in seminar_links) {
+					if (seminar_links.hasOwnProperty(key)) {
+						$('#' + key).attr('href', seminar_links[key]);
+					}
+					console.log(key + " link processed!");
+				}
+	    	});
 		}
-    });
+	});
 
 })(jQuery);
