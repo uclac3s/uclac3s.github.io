@@ -71,6 +71,8 @@ def mode3():
 		resultSet['story'].append('<div class="col-md-12 marginbot-20"><a class="storyLink" href="' + link +'">' + title + '</a></div>')
 	return doit
 
+### To add a new mode, just create one mode function similar and add entry to func_map, other codes do not need to be changed
+
 func_map = {
 	'events': mode1,
 	'westwood cafe': mode2,
