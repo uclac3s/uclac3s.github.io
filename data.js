@@ -18,7 +18,7 @@ http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=207771727&idx=1&sn=7a6c326d
 UCLA-C3S“西木咖啡馆”话题之四：在美国念本科你快乐吗？（一） by 童晓蕙 （UCSD CSSA主席）
 http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=208019264&idx=1&sn=50500bb8e0cb91836bc6cddf9ce8db6c#rd
 
-UCLA-C3S“西木咖啡馆”话题之四：在美国念本科你快乐吗？（二） by 童晓蕙 （UCSD CSSA主席）
+UCLA-C3S“西木咖啡馆”话题之四：在美国念本科你快乐吗？（二） by 仇小雅 （UCLA CSSA主席）
 http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=208058149&idx=1&sn=288ca68ebb7ea0e833ce589ec0422a2f#rd
 
 UCLA-C3S“西木咖啡馆”话题之五：如何治愈一颗受伤的心 by 高晨 （UCLA）
