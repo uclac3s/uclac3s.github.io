@@ -32,23 +32,23 @@ http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=401694134&idx=1&sn=8e9c8f61
 
 [template:events]
 
-10.28
+15-10-28
 Intergenerational Intimacy: A Redefinition of Filial Piety (Speaker: Yunxiang Yan)
 http://uclac3s.org
 
-9.30
+15-09-30
 Expeditions toward Terra Incognita (Unexplored Territory) (Speaker: Chih-Ming Ho)
 http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=209024651&idx=1&sn=7b4e7bb9478ab9fb76267013b61bf447#rd
 
-5.14
+15-05-14
 How to Build a Successful Career in US? (Speaker: Wenyuan Shi)
 http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=205823118&idx=1&sn=915e5f7ca6fad639061ab14381cade25#rd
 
-4.21
+15-04-21
 How to Present Your Research? (Speaker: Feng Guo, Dezhi Kang)
 http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=205093160&idx=2&sn=85db27c6b76925b679b0dd82c0eea537#rd
 
-4.10
+15-04-10
 Can we Design Our Career? (Speaker: Jason Cong)
 http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=204799904&idx=2&sn=f6861f52fe0fd743c2a64bf8b8d326ec#rd
 

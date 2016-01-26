@@ -51,6 +51,10 @@
 	margin-bottom: 30px;
 }
 
+.eventLink {
+    color: #0066cc;
+}
+
 .titleLink {
     color: #CACABC;
 }
