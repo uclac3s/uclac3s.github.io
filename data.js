@@ -24,6 +24,12 @@ http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=208058149&idx=1&sn=288ca68e
 UCLA-C3S“西木咖啡馆”话题之五：如何治愈一颗受伤的心 by 高晨 （UCLA）
 http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=208293765&idx=1&sn=a24be45c1487ae5b7880f177a5ede731#rd
 
+UCLA-C3S“西木咖啡馆”话题之六：我为什么拒了哈佛？- by 沈璐瑶
+http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=400726698&idx=1&sn=fa4aaa4e5f8ab76e20f03b9affff3f44#rd
+
+UCLA-C3S“西木咖啡馆”话题之七：成长比成功更重要 - by Jency颜琛
+http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=401694134&idx=1&sn=8e9c8f61c35039201c019f7d46e2809d#rd
+
 [template:events]
 
 10.28
