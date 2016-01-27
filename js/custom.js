@@ -93,21 +93,30 @@
 			jQuery(".nav a[href='#" + id + "']").parent().addClass("active");					
 		});
 
-	// seminars links -- we only load links while users mouse over link titles
+	function setSeminarLinks() {
+		$.ajax({
+	        url: "http://uclac3s-seminars.appspot.com/getseminarlinks"
+	    }).then(function(seminar_links) {
+		   	for (var key in seminar_links) {
+				if (seminar_links.hasOwnProperty(key)) {
+					$('#' + key).attr('href', seminar_links[key]);
+				}
+				console.log(key + " link processed!");
+			}
+	    });
+	}
+
+	// seminars links -- load links while users mouse over link titles
 	$('.seminar_link').mouseover(function () {
 		// links not set
 		if ($(this).attr('href') == '') {
-			$.ajax({
-	        	url: "http://uclac3s-seminars.appspot.com/getseminarlinks"
-	    	}).then(function(seminar_links) {
-		    	for (var key in seminar_links) {
-					if (seminar_links.hasOwnProperty(key)) {
-						$('#' + key).attr('href', seminar_links[key]);
-					}
-					console.log(key + " link processed!");
-				}
-	    	});
+			setSeminarLinks();
 		}
+	});
+
+	// seminars links -- load links while users click seminars in navigation bar
+	$('.seminar_nav').click(function () {
+		setSeminarLinks();
 	});
 
 })(jQuery);
