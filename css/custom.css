@@ -26,9 +26,12 @@
     float: left;
 }
 
-/* key to not let nav bar flows to second line */
-@media (max-width: 995px) {
-    li .optional {
+/*
+key to not let nav bar flows to second line,
+and hide optional texts on small devices
+*/
+@media (max-width: 990px) {
+    .optional {
         display: none !important;
     }
 }
