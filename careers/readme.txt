@@ -1,0 +1,1 @@
+Make sure all images are of the same size: 600px * 150px

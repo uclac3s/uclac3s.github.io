@@ -93,6 +93,11 @@
 			jQuery(".nav a[href='#" + id + "']").parent().addClass("active");					
 		});
 
+	$('.nav a').on('click', function(){
+		$('.btn-navbar').click(); //bootstrap 2.x
+		$('.navbar-toggle').click(); //bootstrap 3.x by Richard
+	});
+
 	function setSeminarLinks() {
 		$.ajax({
 	        url: "http://uclac3s-seminars.appspot.com/getseminarlinks"

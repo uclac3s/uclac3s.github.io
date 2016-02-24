@@ -2,7 +2,7 @@
 /* custom styles */
 
 /* fit for mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #navigation {
         padding: 40px 0 0 0;
     }
@@ -22,9 +22,27 @@
     font-size: 12px;
 }
 
-.navbar-collapse {
-    /*padding-top: 20px;*/
+.navbar-toggle {
+    float: left;
 }
+
+/* key to not let nav bar flows to second line */
+@media (max-width: 995px) {
+    li .optional {
+        display: none !important;
+    }
+}
+
+/*
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}*/
 
 #navigation {
     /*width: 960px;*/

@@ -319,7 +319,7 @@ hr.bold {
 
 .home-section {
     padding-top: 120px;
-    padding-bottom: 110px;
+    /*padding-bottom: 110px;*/
 	display:block;
     position:relative;
     z-index:120;
@@ -927,6 +927,7 @@ a.btn:focus{
 
 /* Media queries */
 
+
 @media(min-width:767px) {
 
     .navbar {
@@ -964,7 +965,7 @@ a.btn:focus{
 
 
 }
-@media (max-width:768px) {
+@media (max-width:767px) {
 	#navigation {
 		padding: 20px 0;
 	}
@@ -1015,10 +1016,10 @@ a.btn:focus{
 
 }
 
-@media (max-width:480px) {
+@media (max-width:767px) {
 
 	.navbar-custom .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    	background-color: rgba(255,255,255,.4);
 	}
 	
 	.navbar.navbar-custom.navbar-fixed-top {
