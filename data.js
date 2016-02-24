@@ -32,6 +32,14 @@ http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=401694134&idx=1&sn=8e9c8f61
 
 [template:events]
 
+16-02-25
+The Promise of Environmental Law in China (Speaker: Alex Wang)
+http://uclac3s.org
+
+16-01-28
+Follow your mind OR follow your heart? (Speaker: Yibin Wang)
+http://mp.weixin.qq.com/s?__biz=MzAwOTI4NjAyNg==&mid=401874327&idx=1&sn=24f2049bb1de69f8f254c481b80ffdde#rd
+
 15-10-28
 Intergenerational Intimacy: A Redefinition of Filial Piety (Speaker: Yunxiang Yan)
 http://uclac3s.org
