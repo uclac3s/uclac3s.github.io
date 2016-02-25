@@ -103,7 +103,7 @@
 		if (isSeminarLinksSet) {
 			return;
 		}
-		
+
 		isSeminarLinksSet = true;
 		$.ajax({
 	        url: "http://uclac3s-seminars.appspot.com/getseminarlinks"
@@ -118,8 +118,8 @@
 	}
 
 	$(window).scroll(function() {
-		var hT = $('#seminars').offset().top,
-		hH = $('#seminars').outerHeight(),
+		var hT = $('#seminars-load').offset().top,
+		hH = $('#seminars-load').outerHeight(),
 		wH = $(window).height(),
 		wS = $(this).scrollTop();
 		//console.log((hT-wH) , wS);
