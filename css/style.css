@@ -325,6 +325,10 @@ hr.bold {
     z-index:120;
 }
 
+.top-section {
+	padding-top: 80px;
+}
+
 .inner-section {
     padding-top: 110px;
     padding-bottom: 110px;
