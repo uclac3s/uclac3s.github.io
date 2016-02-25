@@ -98,7 +98,13 @@
 		$('.navbar-toggle').click(); //bootstrap 3.x by Richard
 	});
 
+	var isSeminarLinksSet = false;
 	function setSeminarLinks() {
+		if (isSeminarLinksSet) {
+			return;
+		}
+		
+		isSeminarLinksSet = true;
 		$.ajax({
 	        url: "http://uclac3s-seminars.appspot.com/getseminarlinks"
 	    }).then(function(seminar_links) {
@@ -111,17 +117,15 @@
 	    });
 	}
 
-	// seminars links -- load links while users mouse over link titles
-	$('.seminar_link').mouseover(function () {
-		// links not set
-		if ($(this).attr('href') == '') {
+	$(window).scroll(function() {
+		var hT = $('#seminars').offset().top,
+		hH = $('#seminars').outerHeight(),
+		wH = $(window).height(),
+		wS = $(this).scrollTop();
+		//console.log((hT-wH) , wS);
+		if (wS > (hT+hH-wH)){
 			setSeminarLinks();
 		}
-	});
-
-	// seminars links -- load links while users click seminars in navigation bar
-	$('.seminar_nav').click(function () {
-		setSeminarLinks();
 	});
 
 })(jQuery);
