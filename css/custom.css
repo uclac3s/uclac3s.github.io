@@ -67,6 +67,10 @@ and hide optional texts on small devices
 	margin-bottom: 50px;
 }
 
+.chairmen .img-responsive {
+    margin: 0 auto;
+}
+
 .member {
 	text-align: left;
 	margin-bottom: 30px;
