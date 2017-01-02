@@ -7,11 +7,12 @@ var data = function () {/*
 [template:leader_info]
 
 # image_title.jpg
-# First_Name Last_Name
+# 中文名 | First Last
 # Current_Position_At_C3S
-# Current_Title
+# Current_Academic_Title
 # Major
 # Research_Interest/Career_Interest
+# Bachelor Degree School
 
 李睿.jpg
 李睿 | Rui Li
