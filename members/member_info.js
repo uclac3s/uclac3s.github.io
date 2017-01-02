@@ -184,4 +184,95 @@ N/A
 N/A
 Tsinghua University
 
+
+[template:alumni_info]
+
+高石.jpg
+高石 | Shi Gao
+Chair, IT Department
+Ph.D, Software Engineer, Google
+Computer Science
+Semantic Web, Temporal Database, Database Provenance and Data Mining
+Zhejiang University
+
+封志平.jpg
+封志平 | Zhiping Feng
+President
+Post-doc Scholar, Stanford
+Systems Biology
+Optogenetics, Cancer biology
+Nankai University
+
+李颉.jpg
+李颉 | Jie Li
+N/A
+Post-doc Scholar, City of Hope
+Biochemical Engineering
+N/A
+N/A
+
+刘挺.jpg
+刘挺 | Ting Liu
+Vice president
+Ph.D, Senior Project Manager, Creative Biolabs Inc.
+Molecular Cellualr, and Developmental Biology
+Developmental biology
+Sichuan University
+
+李发科.jpg
+李发科 | Fake Li, (Frank)
+Project Management/Marketing Department
+Ph.D, Senior Scientist, Third Military Medical University
+Clinical Medicine
+N/A
+N/A
+
+张瑾.jpg
+张瑾 | Jin Zhang
+Media/Communications Department
+Ph.D
+Molecular and Medical Phamarcology
+Mitochondrial Import of BK Channel in the Heart
+M.D., Nantong Medical School
+
+郑姝莉.jpg
+郑姝莉 | Shuli Zheng (Julie)
+Media/Communications Department
+Ph.D Candidate, Sun Yat-sen University
+Sociology
+Sociology of gift exchange & giving
+N/A
+
+江山曦.jpg
+江山曦 | Shanxi Jiang
+Vice Chair, Media/Communications Department
+Ph.D Candidate
+Molecular, Cellular & Integrative Physiology
+Systems Biology, Cardiology, Chromatin Structure, Epigenetics
+Fudan University
+
+刘琬璐.jpg
+刘琬璐 | Wanlu Liu
+Media/Communications Department
+Ph.D Candidate
+Molecular Biology IDP
+Genomics, Bioinformatics, Epigenetics, Statistics
+Zhejiang University
+
+徐彦.jpg
+徐彦 | Yan Xu
+Graphic Designer
+N/A
+Landscape Architecture
+Landscape design, graphic design
+Sun Yat-sen University
+
+郑慧欣.jpg
+郑慧欣 | Huixin Zheng
+Healthcare Policy and International Development
+N/A
+Luskin School of Public Affairs
+Healthcare Policy and International Development
+Sun Yat-sen University
+
 */};

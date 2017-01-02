@@ -41,16 +41,65 @@
         ga('send', 'pageview');
 
         $(document).ready(function(){
-            $('a').attr('target', '_blank');
+            $('a').attr('target', '_self');
         });
     </script>
 
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-    <div id="container page" class="container page">
+<!-- Tabs -->
+<div id="navigation">
+    <nav class="navbar navbar-custom" role="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a data-toggle="tab" href="#structure">Structure</a></li>
+                            <li><a data-toggle="tab" href="#leaders">Leaders</a></li>
+                            <li><a data-toggle="tab" href="#members">Members</a></li>
+                            <li><a data-toggle="tab" href="#alumni">Alumni</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
 
-        <!-- Section: members -->
-        <section id="leaders" class="home-section color-dark text-center bg-white">
+
+    <div id="container page" class="container page tab-content">
+
+
+        <section id="structure" class="home-section color-dark text-center bg-white tab-pane fade in active">
+            <div class="container marginbot-50">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+                            <div class="section-heading text-center">
+                                <h2 class="h-bold">Organization Structure</h2>
+                                <div class="divider-header"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="float:left;">
+                <img src="img/structure/structure1.jpg" height="300px"/>
+            </div>
+            <div style="float:right;">
+                <img class="middle-img" src="img/structure/structure2.jpg" height="300px"/>
+            </div>
+        </section>
+
+
+        <section id="leaders" class="home-section color-dark text-center bg-white tab-pane fade">
             <div class="container marginbot-50">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
@@ -82,7 +131,9 @@
             </div>
         </section>
 
-        <section id="members" class="home-section color-dark text-center bg-white">
+
+
+        <section id="members" class="home-section color-dark text-center bg-white tab-pane fade">
             <div class="container marginbot-50">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
@@ -102,6 +153,40 @@
                         <div class="col-xs-1"></div>
                         <!--<div class="col-md-2 col-xs-3">-->
                             <!--<img src="members/{0}" alt="" class="img-responsive" height="200" width="140" />-->
+                        <!--</div>-->
+                        <div class="col-md-9 col-xs-6">
+                            <p><strong>{1}, {2}</strong></p>
+                            {3}, {4} <br />
+                            Research/Career Interest: {5} <br />
+                            Bachelor Degree: {6}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="alumni" class="home-section color-dark text-center bg-white tab-pane fade">
+            <div class="container marginbot-50">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+                            <div class="section-heading text-center">
+                                <h2 class="h-bold">Alumni</h2>
+                                <div class="divider-header"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container marginbot-50">
+                <div class="row">
+
+                    <div class="template:alumni_info member row">
+                        <div class="col-xs-1"></div>
+                        <!--<div class="col-md-2 col-xs-3">-->
+                        <!--<img src="members/{0}" alt="" class="img-responsive" height="200" width="140" />-->
                         <!--</div>-->
                         <div class="col-md-9 col-xs-6">
                             <p><strong>{1}, {2}</strong></p>
