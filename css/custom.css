@@ -91,3 +91,11 @@ and hide optional texts on small devices
 .storyLink {
     color: #000066;
 }
+
+.carousel-caption {
+  padding-bottom: 0px;
+}
+
+.carousel-indicators {
+    bottom: 0px;
+}
