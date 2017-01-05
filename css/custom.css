@@ -93,9 +93,17 @@ and hide optional texts on small devices
 }
 
 .carousel-caption {
-  padding-bottom: 0px;
+  position: relative;
+  left: auto;
+  right: auto;
+  color: #000000;
+  text-shadow: 0 0 0;
 }
 
 .carousel-indicators {
-    bottom: 0px;
+    bottom: 30px;
+}
+
+.carousel-indicators li {
+  border-color: #D5D8DC;
 }
