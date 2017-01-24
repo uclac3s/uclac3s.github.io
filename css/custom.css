@@ -98,6 +98,9 @@ and hide optional texts on small devices
   right: auto;
   color: #000000;
   text-shadow: 0 0 0;
+  font-size: 25px;
+  padding-top: 40px;
+
 }
 
 .carousel-indicators {
